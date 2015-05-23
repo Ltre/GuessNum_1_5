@@ -1,0 +1,181 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="&#x5173;&#x4e8e;Ltre&#x7684;&#x58f0;&#x660e;"/>
+    <Property name="resizable" type="boolean" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="false" type="code"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,56,0,0,1,118"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="AfterClose"/>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="closeAbout"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="230" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="dtt" pref="104" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" min="-2" pref="223" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton4" alignment="1" pref="111" max="32767" attributes="0"/>
+                          <Component id="jButton1" alignment="0" pref="111" max="32767" attributes="1"/>
+                          <Component id="jButton2" alignment="0" pref="111" max="32767" attributes="1"/>
+                          <Component id="jButton3" alignment="0" pref="111" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Component id="jSeparator1" alignment="0" pref="338" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel2" min="-2" pref="370" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="1">
+                      <Component id="jButton1" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton4" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jSeparator1" min="-2" pref="12" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dtt" min="-2" pref="117" max="-2" attributes="1"/>
+                  <Component id="jLabel1" min="-2" pref="108" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="dtt">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/res/2.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toBrowser"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;center&gt;&#x9e23;&#x8c22;&lt;br/&gt;&#xa;&#x672c;&#x7a0b;&#x5e8f;&#x96f6;&#x6280;&#x672f;&#x542b;&#x91cf;&#xff0c;&#x7eaf;&#x5c5e;&#x4f5c;&#x8005;&#x672c;&#x4eba;&lt;br/&gt;&#x65e0;&#x804a;&#x7ec3;&#x624b;&#xff0c;&#x56e0;&#x4e3a;&#x5f88;&#x4e45;&#x6ca1;&#x78b0;JAVA&#x4e86;&lt;br/&gt;&#xa;&#x77ed;&#x53f7;&#xff1a;636484 &lt;br/&gt;&#xa;&#x4f01;&#x9e45;&#xff1a;374607000&lt;br/&gt;&#xa;&lt;/center&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="66" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;center&gt;&lt;font size=&quot;5&quot;&gt;version 1.5&#x66f4;&#x65b0;&#x65e5;&#x5fd7;&lt;br&gt;&lt;/font&gt;&lt;/center&gt;&lt;br/&gt;&#xa;&lt;center&gt;&#x76f8;&#x5bf9;1.2.0.0&#x7248;&#x672c;&#x7684;&#x66f4;&#x65b0;&#x660e;&#x7ec6;&lt;/center&gt;&lt;br&gt;&#xa;&#x4e00;&#x3001;&#x5220;&#x9664;&#x5197;&#x4f59;&#x51fd;&#x6570;GuessActionPerformed()&lt;br/&gt;&#xa;&#x4e8c;&#x3001;&#x6ce8;&#x91ca;&#x6682;&#x65f6;&#x65e0;&#x7528;&#x51fd;&#x6570;type_numActionPerformed()&#xff0c;&#x65e5;&#x540e;&#x6dfb;&#x52a0;&#x65b0;&#x529f;&#x80fd;&#x65f6;&#x518d;&#x4f7f;&#x7528;&lt;br/&gt;&#xa;&#x4e09;&#x3001;&#x8c03;&#x6574;&#x731c;&#x6570;&#x6b21;&#x6570;&#x663e;&#x793a;&#x7684;&#x903b;&#x8f91;&#xff1a;&lt;br/&gt;&#xa;&amp;nbsp;&amp;nbsp;&#xff08;1&#xff09;&#x5f53;dealGuess()&#x8fd4;&#x56de;false&#x65f6;&#xff0c;&#x4e0d;&#x663e;&#x793a;&#x5f53;&#x524d;&#x731c;&#x6570;&#x6b21;&#x6570;&#xff0c;&#x800c;&#x662f;&#x663e;&#x793a;&#x8b66;&#x544a;&#xff1b;&lt;br/&gt;&#xa;&amp;nbsp;&amp;nbsp;&#xff08;2&#xff09;&#x5f53;dealGuess()&#x8fd4;&#x56de;true&#x65f6;&#xff0c;&#x8868;&#x660e;&#x6210;&#x529f;&#x5224;&#x65ad;&#xff0c;&#x8fd9;&#x65f6;&#x624d;&#x5728;&#x7a97;&#x53e3;&#x5e95;&#x90e8;&#x663e;&#x793a;&#x5f53;&#x524d;&#x731c;&#x6570;&#x6b21;&#x6570;&#x3002;&lt;br/&gt;&#xa;&#x56db;&#x3001;&#x4fee;&#x6b63;&#x7b2c;&#x4e00;&#x6b21;&#x5728;&#x8f93;&#x5165;&#x6846;&#x8f93;&#x5165;&#x5b57;&#x7b26;&#x65f6;&#x5c31;&#x663e;&#x793a;&#x201c;&#x5230;&#x6b64;&#x4e3a;&#x6b62;&#xff0c;&#x4f60;&#x5df2;&#x7ecf;&#x731c;&#x4e86;0&#x6b21;&#x201d;&#x7684;BUG&#x3002;&lt;br/&gt;&#xa;&#x4e94;&#x3001;&#x7981;&#x7528;JFrame&#x6700;&#x5927;&#x5316;&#x3002;&lt;br/&gt;&#xa;&#x516d;&#x3001;&#x53bb;&#x9664;&#x7a97;&#x4f53;&#x6807;&#x9898;&#x680f;&#xff0c;&#x7a97;&#x53e3;&#x900f;&#x660e;&#x5316;&#x3002;&lt;br/&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Root"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toRoot"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="66" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Iseo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toIseo"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="KGJ"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toKGJ"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="66" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FTP"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toFTP"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
